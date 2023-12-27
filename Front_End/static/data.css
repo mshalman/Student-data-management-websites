@@ -1,0 +1,117 @@
+.html{height: 100%;}
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #f2eee3;
+}
+.report{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 650px;
+    max-width: 750px;
+    padding: 60px;
+    transform: translate(-50%, -50%);
+    background: rgba(156, 156, 156, 0.857);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0,.5);
+    border-radius: 10px;
+}
+table{
+    border-collapse: collapse;
+    border: 2px groove black;
+    margin: 10px 0px 0px 0px;
+    width: 100%; 
+}
+.report span[id="logout"] a{
+    color :white;
+    background: rgb(191, 26, 26);
+    text-shadow: 0.8px 0.8px 0.8px black;
+    text-decoration: none;
+    font-weight: bold;
+    outline: thin solid black;
+    border-radius: 2px;
+    padding: 6px;
+    margin: 20px;
+}
+.report span[id="logout"] a:hover{
+    color: black;
+    background: rgb(191, 26, 26);
+    text-shadow: 0.8px 0.8px 0.8px white;
+    border-radius: 2px;
+    outline-color: black;
+    box-shadow: 0 0 1px black,
+                0 0 12px black,
+                0 0 10px black,
+                0 0 10px black;
+}
+.report span[id="tambah"] a {
+    color:white ;
+    background-color: #30ad30;
+    text-shadow: 0.8px 0.8px 0.8px black;
+    text-decoration: none;
+    position:relative;
+    outline: thin solid black;
+    border-radius: 2px;
+    padding: 3px;
+    margin: 15px;
+}
+.report span[id="tambah"] a:hover{
+    color: black;
+    text-shadow:2px 2px 2px #30ad30;
+    text-shadow: 0.8px 0.8px 0.8px white;
+    outline: thin solid black;
+    box-shadow: 0 0 1px black,
+                0 0 12px black,
+                0 0 10px black,
+                0 0 10px black;
+}
+.report h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.report tr td[id="opsi"]{
+    height: 25px;
+    display : flex;
+    justify-content:space-evenly;
+}
+.report tr td span[id="edit"] a{
+    text-decoration: none;
+    color: white;
+    background: rgb(184, 203, 55);
+    text-shadow: 0.8px 0.8px 0.8px black; 
+    outline: thin solid black;
+    border-radius: 2px;
+    margin-top: 10px;
+    padding: 3px;
+}
+.report span[id="edit"] a:hover{
+    color: black;
+    text-shadow: 0.8px 0.8px 0.8px white; 
+    outline: thin solid black;
+    box-shadow: 0 0 1px black,
+                0 0 12px black,
+                0 0 10px black,
+                0 0 10px black;
+}
+.report tr td span[id="hapus"] a{
+    text-decoration: none;
+    background: rgb(191, 26, 26);
+    color: white;
+    text-shadow: 0.8px 0.8px 0.8px black;
+    outline: thin solid black;
+    border-radius: 2px;
+    padding: 3px;
+}
+.report span[id="hapus"] a:hover{
+    color: black;
+    text-shadow: 0.8px 0.8px 0.8px white;
+    outline: thin solid black;
+    box-shadow: 0 0 1px black,
+                0 0 12px black,
+                0 0 10px black,
+                0 0 10px black;
+}
